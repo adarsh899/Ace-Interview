@@ -1,0 +1,23 @@
+.checksteps {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.step__link {
+    color: #c0c0c0;
+    font-size: 15px;
+}
+
+.checksteps div {
+    border-top: .3rem #c0c0c0 solid;
+    color: #c0c0c0;
+    flex: 1 1;
+    padding-top: 1rem;
+}
+
+.checksteps div.active {
+    border-top: .3rem #ff0088 solid;
+    color: #ff0088;
+}
